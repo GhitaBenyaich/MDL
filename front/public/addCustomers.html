@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>custom_create</title>
+        <link rel="stylesheet" href="addCustomers.css">
+        <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+        <script src="addCustomers.js"></script>
+    </head>
+    <body>
+        <!-- Mise en place du formulaire d'ajout client -->
+        <form id="formAddCustomer" action="./index.html" method="post">
+            <h1>Création client</h1>
+            <div class="inputs" id="newCustomer">
+                <input type="text" id="last" placeholder="Nom" required>
+                <input type="text" id="first" placeholder="Prénom" required>
+                <input type="email" id="email" placeholder="Email" required>
+                <input type="text" id="company" placeholder="Société" required>
+                <input type="text" id="country" placeholder="Pays" required>
+            </div>
+            <div align="center">
+                <button type="submit">Ajouter un client</button>
+            </div>
+        </form>
+    </body>
+</html>

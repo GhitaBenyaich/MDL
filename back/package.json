@@ -1,0 +1,20 @@
+{
+  "name": "appweb",
+  "version": "1.0.0",
+  "description": "application web",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Benyaich Ghita",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "paginate-array": "^2.0.0",
+    "readline-sync": "^1.4.10",
+    "underscore": "^1.13.6"
+  }
+}

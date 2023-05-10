@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Liste clients</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="https://cdn.jsdelivr.net/npm/progressbar.js@1.0.0/dist/progressbar.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+        <script src="delCustomer.js"></script>
+        <script src="getCustomers.js"></script>   
+    </head>
+    <body>
+        <tr><h1>Liste des clients</h1></tr><hr>
+        <button class="addButton" onclick="location.href = 'addCustomers.html';">Ajouter un client</button>
+        <!-- Mise en place du tableau -->
+        <table>
+            <thead>
+                <tr>
+                <th>ID</th>
+                <th>Nom</th>
+                <th>Prénom</th>
+                <th>Email</th>
+                <th>Société</th>
+                <th>Pays</th>
+                <th>Date de création</th>
+                <th>Modification</th>
+                <th>Suppresion</th>
+                </tr>
+            </thead>
+            <tbody id="tbCustomers">
+            </tbody>
+        </table>
+        <nav class="pagination">
+            <ul class="pagination_li"></ul>
+        </nav>
+        <div id="progressBarContainer"></div>
+        <br><br><br><br>
+    </body>
+</html>
+
+
