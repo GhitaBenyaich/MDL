@@ -89,6 +89,8 @@ const apiServ ={
             }
           });
           
+          
+
           app.delete('/customers/:id', async (req, res) => {
             try {
               let id = req.params.id;
